@@ -1,0 +1,40 @@
+.AboutUs_Card_box {
+  counter-reset: list-counter; /* Сброс счётчика списка */
+  list-style-type: none; /* Убираем стандартные маркеры */
+  padding-left: 0;
+}
+
+.AboutUs_card {
+  position: relative;
+  padding-left: 50px; /* Отступ для номера */
+  margin-bottom: 20px;
+}
+
+.AboutUs_card::before {
+    counter-increment: list-counter; /* Увеличение счётчика на каждом элементе */
+    content: counter(list-counter, decimal-leading-zero); /* Ведущий ноль */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Центрируем по вертикали */
+  font-size: 8.5em; /* Увеличиваем размер номера */
+  font-weight: bold;
+  
+  /* Тонкая обводка через text-shadow */
+  
+  text-shadow: 
+  2px 0 0 #0265DC,  /* Правая тень */
+  -2px 0 0 #0265DC, /* Левая тень */
+  0 2px 0 #0265DC,  /* Нижняя тень */
+  0 -2px 0 #0265DC; /* Верхняя тень */ 
+
+  color: #000000; /* Фоновый цвет номера */
+  width: 400px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  z-index: -1; /* Отправляем номер на задний фон */
+  opacity: 50%; /* Полупрозрачный фон */
+}
