@@ -1,5 +1,5 @@
-@import url(./Reset.css);
-@import url(./Main.css);
+@import url(./reset.css);
+@import url(./main.css);
 @font-face {
   font-family: Bakbak One;
   src: url(./fonts/Epilogue-Regular.ttf);
