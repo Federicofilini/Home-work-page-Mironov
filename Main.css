@@ -1,40 +1,37 @@
-.AboutUs_Card_box {
+.aboutas_card_box {
   counter-reset: list-counter; /* Сброс счётчика списка */
   list-style-type: none; /* Убираем стандартные маркеры */
   padding-left: 0;
 }
 
-.AboutUs_card {
+.aboutus_card {
   position: relative;
-  padding-left: 50px; 
+  padding-left: 50px;
   margin-bottom: 20px;
 }
 
-.AboutUs_card::before {
-    counter-increment: list-counter; /* Увеличение счётчика на каждом элементе */
-    content: counter(list-counter, decimal-leading-zero); /* Ведущий ноль */
+.aboutas_card::before {
+  counter-increment: list-counter; /* Увеличение счётчика на каждом элементе */
+  content: counter(list-counter, decimal-leading-zero); /* Ведущий ноль */
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%); 
-  font-size: 8.5em; 
+  transform: translateY(-50%);
+  font-size: 8.5em;
   font-weight: bold;
-  
-  /* Тонкая обводка через text-shadow */
-  
-  text-shadow: 
-  2px 0 0 #0265DC,  
-  -2px 0 0 #0265DC, 
-  0 2px 0 #0265DC,  
-  0 -2px 0 #0265DC; 
 
-  color: #000000; 
+  /* Тонкая обводка через text-shadow */
+
+  text-shadow: 2px 0 0 #0265dc, -2px 0 0 #0265dc, 0 2px 0 #0265dc,
+    0 -2px 0 #0265dc;
+
+  color: #000000;
   width: 400px;
   height: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: none;
-  z-index: -1; 
-  opacity: 50%; 
+  z-index: -1;
+  opacity: 50%;
 }
