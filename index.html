@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomeWorkPageMironov</title>
-    <link rel="stylesheet" type="text" href="./fonts/Epilogue-Regular.ttf," />
-    <link rel="stylesheet" href="./fonts/Poppins-Regular.ttf" />
+
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <!-- --------------------------------------------------------------------------Header -->
     <header class="header">
-      <a id="lang">
-        <img src="./img/Group1.jpg" alt="" class="logo__img" />
-        <h2 class="logo__text">BINABOX</h2>
-      </a>
+      <div class="logo">
+        <a href="#" id="lang" class="logo__link">
+          <img src="./img/Logo111.svg" alt="Logo" class="logo__img" />
+          <strong class="logo__text">BINABOX</strong>
+        </a>
+      </div>
       <nav class="nav__header__bar">
         <ul class="header__bar__list">
           <li class="list__item__bar">
@@ -31,23 +32,36 @@
           </li>
         </ul>
       </nav>
-      <div class="search_box">
-        <div class="Search__field">
-          <img src="./img/search-md.svg" alt="Поиск" /><input
-            type="text"
-            class="search-input"
-            placeholder="Search"
-          />
-        </div>
 
+      <div class="search_box">
+        <div class="search__field">
+          <img
+            class="search-icon"
+            src="./img/search-md.svg"
+            alt="Поиск"
+          /><input type="text" class="search-input" placeholder="Search" />
+        </div>
+        <!-- --------------------------------- -->
         <div class="rectangle"></div>
-        <div class="discord__link___box">
-          <a href="" class="Discord_link"
-            ><img src="./img/discord.jpg" alt="" class="Discord__img" />
-            <h3 class="Discord__text">Discord</h3></a
-          >
-          <button class="Connect__button">
-            <img src="./img/wallet-03.jpg" alt="" />Connect
+        <!-- ---------------------------------- -->
+        <div class="discord-link-box">
+          <div class="discord-link-fig">
+            <a class="discord-btn" href="#"
+              >Discord
+              <img
+                src="./img/discordsvg.svg"
+                alt="Discord logo"
+                class="discord-img"
+              />
+            </a>
+          </div>
+          <button class="connect-button">
+            <img
+              src="./img/wallet-03.svg"
+              alt="wallet icon"
+              class="wallet-icon"
+            />
+            Connect
           </button>
         </div>
       </div>
@@ -59,19 +73,19 @@
         <div class="promo__box_text">
           <div class="promo__header_box">
             <h2 class="Promo__header">
-              WITH<span class="Promo__header_logo">BINABOX</span>EXPLORE NFT
+              WITH <span class="Promo__header_logo">BINABOX </span>EXPLORE NFT
               COLLECTION
             </h2>
             <p>We are the best way to check the rarity of NFT collection</p>
           </div>
           <div class="promo__number_zone">
-            <div class="Promo__number_box">
+            <div class="promo__number_box">
               <span class="Promo__number">2240+</span>
               <p>Total Iteam</p>
             </div>
-            <div class="Promo__number_box">
+            <div class="promo__number_box">
               <span class="Promo__number">1000+</span>
-              <p>Whitelist now</p>
+              <p>Whitelist </p>
             </div>
           </div>
           <div class="promo__grupe_buttons">
@@ -79,120 +93,107 @@
               <a href="#" class="button_connectWallet">Connect Wallet</a>
             </div>
             <div class="promo__button_box">
-              <a href="#" class="button_whiteList">Whitelist</a>
+              <a href="#" class="button_whiteList">Whitelist now</a>
             </div>
-            _
           </div>
         </div>
-        <img src="" alt="image with a large blue cube" class="promo__img" />
-        <div class="promo_box_img">
-          <img src="" alt="Pattern at the bottom of the box" />
+        <img
+          src="./img/imagecube.svg"
+          alt="image with a large blue cube"
+          class="promo__img"
+        />
+        <div class="promo_union_box">
+          <img
+            class="union-img"
+            src="./img/Patternsvg.svg"
+            alt="Pattern at the bottom of the box"
+          />
         </div>
       </section>
       <!-- ----------------------------------------------------Catalog -->
       <section id="catalog_section">
         <div class="catalog_info_box">
           <div class="catalog_Lable_box">
-            <img src="" alt="Folder Picture" />
+            <img src="./img/Iconcataloge.png" alt="Folder Picture" />
             <h2>Catalog</h2>
           </div>
-          <div class="catalog_info_box">
-            <button>See all</button>
-            <!-- <span>Разделитель между кнопками</span -->
-            <button><img src="" alt="Галочка" /></button>
-            <button><img src="" alt="Галочка" /></button>
+          <div class="catalog_info_button">
+            <span></span>
+            <button class="button-seeall">See all</button>
+            <div class="rectangle"></div>
+            <button class="button-see_zone">
+              <img src="./img/arrowleft.png" alt="Галочка" />
+            </button>
+            <button class="button-see_zone">
+              <img src="./img/arrowright.png" alt="Галочка" />
+            </button>
           </div>
         </div>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">$199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="Catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="Card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
-        <article class="banner__card">
-          <div class="catalog__img__box">
-            <img src="" alt="" class="catalog__img" />
-            <div class="card__info"></div>
-          </div>
-          <div class="catalog__price_box">
-            <span class="card__price">199</span>
-            <h3 class="card__name">Name Product</h3>
-          </div>
-        </article>
+        <!-- ----------------------------------------- -->
+        <div class="catalog-card__zone">
+          <article class="banner__card">
+            <div class="catalog__img__box">
+              <img
+                src="./img/Propertysceleton.jpeg"
+                alt=""
+                class="catalog__img"
+              />
+              <div class="card__info">New</div>
+            </div>
+            <div class="catalog__price_box">
+              <span class="card__price">$199</span>
+              <h3 class="card__name">Name Product</h3>
+            </div>
+          </article>
+          <article class="banner__card">
+            <div class="catalog__img__box">
+              <img src="./img/Propertycat.jpeg" alt="" class="catalog__img" />
+              <div class="card__info">New</div>
+            </div>
+            <div class="catalog__price_box">
+              <span class="card__price">$199</span>
+              <h3 class="card__name">Name Product</h3>
+            </div>
+          </article>
+          <article class="banner__card">
+            <div class="catalog__img__box">
+              <img src="./img/Propertycccc.jpeg" alt="" class="catalog__img" />
+              <div class="card__info">Sold out</div>
+            </div>
+            <div class="catalog__price_box">
+              <span class="Card__price">$199</span>
+              <h3 class="card__name">Name Product</h3>
+            </div>
+          </article>
+          <article class="banner__card">
+            <div class="catalog__img__box">
+              <img
+                src="./img/Propertymagicthing.jpeg"
+                alt=""
+                class="catalog__img"
+              />
+              <div class="card__info">New</div>
+            </div>
+            <div class="catalog__price_box">
+              <span class="card__price">$199</span>
+              <h3 class="card__name">Name Product</h3>
+            </div>
+          </article>
+          <article class="banner__card">
+            <div class="catalog__img__box">
+              <img
+                src="./img/Propertymagiccube.jpeg"
+                alt=""
+                class="catalog__img"
+              />
+              <div class="card__info">New</div>
+            </div>
+            <div class="catalog__price_box">
+              <span class="card__price">$199</span>
+              <h3 class="card__name">Name Product</h3>
+            </div>
+          </article>
+        </div>
       </section>
       <!-- ----------------------------------------------------Blog--- -->
       <section class="blog_section">
