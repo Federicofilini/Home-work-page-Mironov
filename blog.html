@@ -8,7 +8,7 @@
   <body>
     <!-- --------------------------------------------------------------------------Header -->
     <header class="header">
-      <h1 class="logo__text">
+      <a class="logo-blog">
         <img
           src="./img/Logo111.svg"
           alt="Logo"
@@ -16,7 +16,7 @@
           width="35"
           height="39"
         />BINABOX
-      </h1>
+      </a>
 
       <nav class="nav__header__bar">
         <ul class="header__bar__list">
@@ -78,58 +78,48 @@
     <!-------------------------------------------------------------------Our blog -->
     <section class="blog_section">
       <div class="header-nav_block">
-        <img src="" alt="Background imege" width="1728" height="133" />
-
-        <h2 class="blog_header">Our blog</h2>
-        <div class="blog-nav">
-          <ul class="blog-nav__list">
-            <li class="nav-list__item">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-link">Our blog</a>
-            </li>
-            <li class="nav-list__item">
-              <a href="#" class="nav-link">The Basilisks NFT</a>
-            </li>
-          </ul>
-        </div>
+        <h1 class="blog_header">Our blog</h1>
+        <ul class="blog-page_breadcrumbs">
+          <li><a class="home-page_link" href="">Home</a></li>
+          <li><a class="our-blog-page_link" href="">Our blog</a></li>
+          <li><p>The Basilisks NFT</p></li>
+        </ul>
       </div>
       <!-- ----------------------------------------- -->
       <div class="ourblog-info__block">
-        <aside class="side-bar_block">
-          <div class="side-bar_block">
-            <h3 class="side-bar_header">Categories</h3>
+        <aside class="aside">
+          <div class="side-bar_block-one">
+            <strong class="side-bar_header">Categories</strong>
 
             <ul class="side-bar_list">
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Our blog (12)</a>
+                <a href="" class="side-bar_link">Our blog <span>(12)</span></a>
               </li>
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Metaverse (24)</a>
+                <a href="" class="side-bar_link">Metaverse <span>(24)</span></a>
               </li>
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Gaming (24)</a>
+                <a href="" class="side-bar_link">Gaming <span>(24)</span></a>
               </li>
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Art (24)</a>
+                <a href="" class="side-bar_link">Art <span>(24)</span></a>
               </li>
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Robot (24)</a>
+                <a href="" class="side-bar_link">Robot <span>(24)</span></a>
               </li>
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Lauchpad (24)</a>
+                <a href="" class="side-bar_link">Lauchpad <span>(24)</span></a>
               </li>
               <li class="side-bar_item">
-                <a href="" class="side-bar_link">Crypto (430)</a>
+                <a href="" class="side-bar_link">Crypto <span>(430)</span></a>
               </li>
             </ul>
           </div>
 
-          <div class="side-bar_block">
-            <h3 class="side-bar_header">Tag</h3>
+          <div class="side-bar_block block-two">
+            <strong class="side-bar_header">Tag</strong>
 
-            <ul class="side-bar_list">
+            <ul class="side-bar_list list-two">
               <li class="side-bar_item">
                 <a href="" class="side-bar_link">NFT</a>
               </li>
@@ -152,40 +142,35 @@
           </div>
         </aside>
 
-        <div class="ourblog-details__block">
-          <img
-            src=""
-            alt=" Big Dragon"
-            class="blog-main_img"
-            width="920"
-            height="557"
-          />
+        <article class="ourblog-details__block">
+          <figure>
+            <img
+              class="blog-main_img"
+              src=""
+              width="920"
+              height="557"
+              alt="Dragon"
+            />
+            <figcaption>
+              a man without fear stands in front of a huge green dragon
+            </figcaption>
+          </figure>
 
           <h2>The Basilisks NFT</h2>
 
           <a href="" class="gaming-button">Gaming</a>
 
-          <!-- <span>
-            <img src="" alt="" width="20" height="20"> 
-            <p>Tony Nguyen</p>
-            <img src="" alt="" width="20" height="20">
-            <data value="datetime">20 Jun 2022</data>
-          </span> -->
+          <div class="blog__info">
+            <span class="blog__author">
+              <img src="" width="15" height="" alt="15" />
+              Tony Nguyen
+            </span>
+            <time datetime="2022-06-20" class="blog__date">
+              <img src="" width="15" height="15" alt="" />
+              20 Jun 2022
+            </time>
+          </div>
 
-          <!-- <div class="blog-one">
-            <div class="blog_card_info">
-              <div class="box-info1">
-                <img src="" alt="" />
-                <p>Tony Nguyen</p>
-              </div>
-
-              <div class="box-info1">
-                <img src="" alt="" width="20" height="20" />
-                <time datetime="">20 Jun 2022</time>
-              </div>
-            </div>
-          </div> -->
-          <!-- Which option is better? ^^^^^^^^^^^^^^^^^^   -->
           <p>
             The Basilisks that players collect are represented with NFTs on
             Ethereum’s blockchain with real-world value. Players use
@@ -197,7 +182,7 @@
             blockchain by a decentralized autonomous organization (DAO) called
             the Balthazar DAO.
           </p>
-          <ol>
+          <ul>
             <li>
               <p>
                 The Basilisks that players collect are represented with NFTs on
@@ -216,64 +201,50 @@
                 DAO.
               </p>
             </li>
-          </ol>
+          </ul>
 
-          <ol class="blog-label__container">
+          <ul class="blog-label__container">
             <li class="blog-label__list">
-              <img
-                src=""
-                alt=""
-                class="blog-logo__img"
-                width="21"
-                height="23"
-              />
               <p class="blog-logo__text">List name 1</p>
             </li>
             <li class="blog-label__list">
-              <img
-                src=""
-                alt=""
-                class="blog-logo__img"
-                width="21"
-                height="23"
-              />
               <p class="blog-logo__text">List name 2</p>
             </li>
             <li class="blog-label__list">
-              <img
-                src=""
-                alt=""
-                class="blog-logo__img"
-                width="21"
-                height="23"
-              />
               <p class="blog-logo__text">List name 3</p>
             </li>
             <li class="blog-label__list">
-              <img
-                src=""
-                alt=""
-                class="blog-logo__img"
-                width="21"
-                height="23"
-              />
               <p class="blog-logo__text">List name 4</p>
             </li>
-          </ol>
+          </ul>
 
-          <blockquote class="blog_blockquote">
-            “The first huge metaverse arena to arrange live sports, hang out and
-            even make bets and wagers”
-            <div class="blockquote-info">
-              <img src="" alt="" width="21" height="23" />
-              <p>8.5/ 10</p>
-              <p>Markout Corporation</p>
-            </div>
-          </blockquote>
+          <div class="blog__blockquote">
+            <blockquote cite="https://">
+              <p class="blog__blockquote--text">
+                The first huge metaverse arena to arrange live sports, hang out
+                and even make bets and wagers
+              </p>
+            </blockquote>
+            <p class="blog__blockquote--rating">
+              8.5/ 10<cite>Markout Corporation</cite>
+            </p>
+          </div>
 
           <div class="Foto_box">
-            <img src="" alt="" class="fototwo" width="448" height="390" />
-            <img src="" alt="" class="fototwo" width="448" height="390" />
+            <figure>
+              <img src="" alt="" class="foto-two" width="448" height="390" />
+              <figcaption>
+                a big dragon is calmly thinking about something
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="" alt="" class="foto-two" width="448" height="390" />
+              <figcaption>
+                a knight with a sword stands in front of a dragon with blood
+                flowing from it
+              </figcaption>
+            </figure>
           </div>
 
           <h3>NFTs are digital assets that represent real-world objects</h3>
@@ -300,133 +271,133 @@
             You can find a range of NFT marketplaces where you can buy existing
             NFTs or list your own NFTs for sale.
           </p>
-          <div class="blog_caption_container">
-            <div class="caption-box">
-              <p>Tags:</p>
-              <a href="" class="captions-linc">NFT</a>
-              <a href="" class="captions-linc">ICO</a>
-              <a href="" class="captions-linc">Crypto</a>
+          <div class="blog_tags_container">
+            <div class="tags_box">
+              <span>Tags:</span>
+              <ul class="tags_list">
+                <li class="tag_item">
+                  <a href="" class="tag-linc">NFT</a>
+                </li>
+                <li class="tag_item">
+                  <a href="" class="tag-linc">ICO</a>
+                </li>
+                <li class="tag_item">
+                  <a href="" class="tag-linc">Crypto</a>
+                </li>
+              </ul>
             </div>
-            <div class="caption-socials__box">
+            <div class="socials__box">
               <div>
-                <p>Share:</p>
-                <a href="" class="socias"><img src="" alt="" />twitter</a>
-                <a href="" class="socias"><img src="" alt="" />facebook</a>
-                <a href="" class="socias"><img src="" alt="" />telegram</a>
+                <span>Share:</span>
+                <ul class="socials_list">
+                  <li class="socials_item">
+                    <a href="" class="socials_link"
+                      ><img src="" alt="" width="15" height="15" />twitter</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="" class="socials_link"
+                      ><img src="" alt="" width="15" height="15" />facebook</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="" class="socials_link"
+                      ><img src="" alt="" width="15" height="15" />telegram</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
+        </article>
       </div>
     </section>
     <!-- ------------------------------------------------------------------------Footer -->
     <footer class="footer">
-      <div class="footer_bar_box">
-        <div class="footer_logo_box">
-          <strong class="logo_header"
-            ><img
-              src=""
-              alt=""
-              class="logoimg"
-              width="36"
-              height="40"
-            />BINABOX</strong
-          >
+      <div class="footer_logo_box">
+        <a class="logo_header"
+          ><img
+            src=""
+            alt=""
+            class="logo_img"
+            width="36"
+            height="40"
+          />BINABOX</a
+        >
 
-          <p>We are the best way to check the rarity of NFT collection.</p>
-        </div>
-        <div class="footer-nav__box">
-          <h3 class="footer-nav__heder">Subscribe</h3>
-          <nav class="footer-nav">
-            <ul class="footer-nav__list">
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer_nav__box">
-          <h3 class="footer-nav_heder">Company</h3>
-          <nav class="footer-nav">
-            <ul class="footer-nav__list">
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="" class="footer-nav_link">home</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <p>We are the best way to check the rarity of NFT collection.</p>
+      </div>
+      <div class="footer-nav__box">
+        <h3 class="footer-nav__heder">Subscribe</h3>
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">home</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Blog</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Catalog</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer_nav__box">
+        <h3 class="footer-nav_heder">Company</h3>
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Terms Canditions</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Privacy Policy</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Whitepaper</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="" class="footer-nav_link">Help Center</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="footer_info_box">
-          <div class="footer_rigts_box">
-            <p>BINABOX 2022 - ALL rights reserved</p>
-            <ul class="footer_socials_box">
-              <li class="social-card_items">
-                <a href="" class="socials_link"
-                  ><img
-                    src=""
-                    alt=""
-                    class="socials_icon"
-                    width="24"
-                    height="24"
-                /></a>
-              </li>
-              <li class="social-card_items">
-                <a href="" class="socials_link"
-                  ><img
-                    src=""
-                    alt=""
-                    class="socials_icon"
-                    width="24"
-                    height="24"
-                /></a>
-              </li>
-              <li class="social-card_items">
-                <a href="" class="socials_link"
-                  ><img
-                    src=""
-                    alt=""
-                    class="socials_icon"
-                    width="24"
-                    height="24"
-                /></a>
-              </li>
-              <li class="social-card_items">
-                <a href="" class="socials_link"
-                  ><img
-                    src=""
-                    alt=""
-                    class="socials_icon"
-                    width="24"
-                    height="24"
-                /></a>
-              </li>
-              <li class="social-card_items">
-                <a href="" class="socials_link"
-                  ><img
-                    src=""
-                    alt=""
-                    class="socials_icon"
-                    width="24"
-                    height="24"
-                /></a>
-              </li>
-            </ul>
-          </div>
+      <div class="footer_info_box">
+        <div class="footer_rigts_box">
+          <p>BINABOX 2022 - ALL rights reserved</p>
+          <ul class="footer_socials_box">
+            <li class="social-card_items">
+              <a href="" class="socials_link"
+                ><img src="" alt="" class="socials_icon" width="24" height="24"
+              /></a>
+            </li>
+            <li class="social-card_items">
+              <a href="" class="socials_link"
+                ><img src="" alt="" class="socials_icon" width="24" height="24"
+              /></a>
+            </li>
+            <li class="social-card_items">
+              <a href="" class="socials_link"
+                ><img src="" alt="" class="socials_icon" width="24" height="24"
+              /></a>
+            </li>
+            <li class="social-card_items">
+              <a href="" class="socials_link"
+                ><img src="" alt="" class="socials_icon" width="24" height="24"
+              /></a>
+            </li>
+            <li class="social-card_items">
+              <a href="" class="socials_link"
+                ><img src="" alt="" class="socials_icon" width="24" height="24"
+              /></a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
